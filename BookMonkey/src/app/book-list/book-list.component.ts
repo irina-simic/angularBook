@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Book, Thumbnail } from "../shared/book";
-import { BookStoreService } from "../shared/book-store.service";
+import { BookStoreService } from "../book-store.service";
 
 @Component({
   selector: 'bm-book-list',
